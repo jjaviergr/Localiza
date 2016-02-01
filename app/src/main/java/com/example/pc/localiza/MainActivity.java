@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Intent intent=new Intent(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse("geo:0,0?z=4&q=restaurantes"));
+        intent.setData(Uri.parse("geo:36.8152359,-2.5784975?z=15"));
         startActivity(intent);
 
     }
